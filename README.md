@@ -8,8 +8,8 @@ You can simply use the auto-updated json file: https://covid.truncgil.com/today.
 
 ### PHP
 ```php
-$finans = json_decode(file_get_contents("https://covid.truncgil.com/today.json"),true);
-print_r($finans);
+$covid = json_decode(file_get_contents("https://covid.truncgil.com/today.json"),true);
+print_r($covid);
 ```
 
 ### JavaScript / jQuery
@@ -67,8 +67,8 @@ Otomatik olarak güncellenen json dosyasını basit bir şekilde kullanabilirsin
 
 ### PHP
 ```php
-$finans = json_decode(file_get_contents("https://covid.truncgil.com/today.json"),true);
-print_r($finans);
+$covid = json_decode(file_get_contents("https://covid.truncgil.com/today.json"),true);
+print_r($covid);
 ```
 
 ### JavaScript / jQuery
